@@ -16,5 +16,5 @@ int main(){
     media = soma / num_elementos;
     printf("A média dos numeros digitados é; %.2f", media);
 
-    return 0
+    return 0;
 }
