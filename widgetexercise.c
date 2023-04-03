@@ -12,3 +12,6 @@ typedef struct
 } CustomLabelClass;
 
 
+#define CUSTOM_TYPE_LABEL (custom_label_get_type())
+
+
