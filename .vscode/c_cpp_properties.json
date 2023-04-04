@@ -1,7 +1,20 @@
 {
     "configurations": [
         {
-            "name": "Linux",
+            "name": "gtk/gtk.h",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include/gtk-3.0",
+                "/usr/include/glib-2.0"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        },
+        {
+            "name": "teste",
             "includePath": [
                 "${workspaceFolder}/**"
             ],
@@ -12,7 +25,29 @@
             "intelliSenseMode": "linux-gcc-x64"
         },
         {
-            "name": "teste",
+            "name": "configurações",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        },
+        {
+            "name": "glibconfig.h",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        },
+        {
+            "name": "h",
             "includePath": [
                 "${workspaceFolder}/**"
             ],
